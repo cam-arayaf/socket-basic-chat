@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Private chat with Node.js and Socket.io</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Private chat with Node.js and Socket.io</h1>
+    <div id="messages"></div>
+    <form id="formSend">
+        <input type="text" id="nickname" placeholder="Nickname">
+        <textarea id="text" placeholder="Messages..."></textarea>
+        <input type="submit" value="Send">
+    </form>
+    <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>
